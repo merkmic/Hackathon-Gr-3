@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav {
     display: flex;
     background: gray;
@@ -13,6 +20,7 @@ nav {
     height: min-content;
     overflow: visible;
     position: relative;
+    text-align: center;
 }
 
 nav a {
@@ -25,4 +33,6 @@ nav a {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    font-weight: 100;
+    font-size: 0.9rem;
 }
