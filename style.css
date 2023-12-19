@@ -19,7 +19,8 @@ nav {
   z-index: 1;
   top: 2rem;
   min-width: 300px;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 nav a {
@@ -51,20 +52,17 @@ h1 {
 }
 
 main {
+  margin-top: 300px;
   display: flex;
-  margin: 8rem;
-  width: 100vw;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  border: 1px solid green;
 }
 
 .gallery_image {
   position: relative;
   max-width: 50%;
-  overflow: hidden;
   border-radius: 10px;
-  /* border: 1px solid gray; */
   text-align: center;
 }
 
@@ -89,7 +87,6 @@ img:hover p {
   max-width: 50%;
   overflow: hidden;
   border-radius: 10px;
-  /* border: 1px solid gray; */
   text-align: center;
 }
 
