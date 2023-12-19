@@ -16,7 +16,6 @@ nav {
   overflow: visible;
   position: fixed;
   z-index: 1;
-  left: 50%;
   top: 1rem;
   min-width: 300px;
 }
@@ -51,8 +50,8 @@ h1 {
 
 main {
     display: flex;
-    margin: 10rem auto;
-    width: 100%;
+    margin: 8rem;
+    width: 100vw;
     flex-wrap: wrap;
     gap: 2rem;
     border: 1px solid green;
