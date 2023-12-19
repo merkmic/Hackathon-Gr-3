@@ -12,13 +12,13 @@ nav {
   border-radius: 100px;
   opacity: 1;
   max-width: 300px;
-  flex: 1 0 0px;
   gap: 10px;
-  height: min-content;
   overflow: visible;
   position: fixed;
-  margin: 2rem auto;
   z-index: 1;
+  left: 50%;
+  top: 1rem;
+  min-width: 300px;
 }
 
 nav a {
@@ -59,7 +59,6 @@ main {
 }
 
 .gallery_image {
-
     position:relative;
     max-width: 50%;
     overflow: hidden;
