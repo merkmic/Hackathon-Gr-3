@@ -64,8 +64,8 @@ img:hover, video:hover {
     transition: 0.2s -webkit-filter linear;
 }
 img:hover .gallery_text {
+    visibility: visible;
     opacity: 0;
-    background: black;
 }
 
 .gallery_text {
