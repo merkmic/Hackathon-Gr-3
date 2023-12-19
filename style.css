@@ -39,8 +39,27 @@ nav a {
     background: rgb(255, 255, 255)
 }
 
+
+main {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
 .gallery_image {
     position:relative;
+    width: 50%;
+    border: 1px solid gray;
+}
+main img {
+    max-width: 100%;
+}
+
+img:hover {
+    opacity: 1;
+    filter: blur(12px);
+    top: calc(-5%);
+    left: calc(-5%);
 }
 
 footer {
