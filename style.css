@@ -56,7 +56,6 @@ main {
     width: 100vw;
     flex-wrap: wrap;
     gap: 2rem;
-    border: 1px solid green;
 }
 
 .gallery_image {
@@ -64,7 +63,6 @@ main {
     max-width: 50%;
     overflow: hidden;
     border-radius: 10px;
-    /* border: 1px solid gray; */
     text-align: center;
 }
 
