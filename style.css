@@ -48,46 +48,46 @@ h1 {
   background: rgb(255, 255, 255);
 }
 
-
 main {
-    display: flex;
-    margin: 40px;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  margin: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .gallery_image {
-    position:relative;
-    max-width: 50%;
-    overflow: hidden;
-    border-radius: 10px;
-    border: 1px solid gray;
-    text-align: center;
+  position: relative;
+  max-width: 50%;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid gray;
+  text-align: center;
 }
 
 img:hover {
-    opacity: 1;
-    filter: blur(12px) brightness(70%);
-    overflow: hidden;
-    transition: 0.2s -webkit-filter linear;
+  opacity: 1;
+  filter: blur(12px) brightness(70%);
+  overflow: hidden;
+  transition: 0.2s -webkit-filter linear;
 }
 img:hover .gallery_text {
-    opacity: 0;
-    background: black;
+  opacity: 0;
+  background: black;
 }
 
 .gallery_text {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    opacity: 1;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  opacity: 1;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 50px 200px 40px 200px;
+  font-size: 0.8rem;
 }
 
 .footer__name {
@@ -97,7 +97,7 @@ footer {
 }
 
 .footer__name svg {
-  width: 50px;
+  width: 30px;
 }
 
 .footer__links {
@@ -111,8 +111,24 @@ footer {
 }
 
 .shopbutton {
-  position: sticky;
-  bottom: 0;
-  width: 70px;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  margin: 0 auto;
+  bottom: 30px;
   background-color: black;
+  border-radius: 100px;
+  padding: 12px 15px 12px 15px;
+  width: fit-content;
+}
+
+.shopbutton a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
