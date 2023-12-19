@@ -57,7 +57,7 @@ main {
     text-align: center;
 }
 
-img:hover {
+img:hover, video:hover {
     opacity: 1;
     filter: blur(12px) brightness(70%);
     overflow: hidden;
