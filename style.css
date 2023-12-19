@@ -35,4 +35,9 @@ nav a {
     padding: 10px;
     font-weight: 100;
     font-size: 0.9rem;
+    margin: 4px;
+}
+
+#current {
+    background: rgb(255, 255, 255)
 }
