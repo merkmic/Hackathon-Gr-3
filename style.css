@@ -61,7 +61,7 @@ img:hover, video:hover {
     opacity: 1;
     filter: blur(12px) brightness(70%);
     overflow: hidden;
-    transition: 0.2s -webkit-filter linear;
+    transition: 0.25s -webkit-filter linear;
 }
 img:hover .gallery_text {
     visibility: visible;
