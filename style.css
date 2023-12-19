@@ -89,8 +89,7 @@ img:hover p {
     opacity: 0; 
     transition: opacity 0.3s ease; 
     pointer-events: none; 
-
-  text-align: center;
+    text-align: center;
 }
 
 img:hover,
@@ -108,7 +107,7 @@ video:hover {
 
 .gallery_text {
   position: absolute;
-  top: 1rem;
+  top: 1.5rem;
   left: 1rem;
   opacity: 0;
 }
