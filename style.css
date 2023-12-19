@@ -37,14 +37,14 @@ nav a {
   margin: 4px;
 }
 h1 {
-    width: 800px;
-    margin: auto;
-    font-size: 420%;
-    text-align: center;
-    font-weight: 550;
-    font-family:sans-serif;
-    margin-top: 3.5em;
-    margin-bottom: 0.9em;
+  width: 800px;
+  margin: auto;
+  font-size: 420%;
+  text-align: center;
+  font-weight: 550;
+  font-family: sans-serif;
+  margin-top: 3.5em;
+  margin-bottom: 0.9em;
 }
 #current {
   background: rgb(255, 255, 255);
@@ -84,6 +84,46 @@ img:hover p {
     top: 1rem;
     left: 1rem;
     opacity: 1;
+  position: relative;
+  max-width: 50%;
+  overflow: hidden;
+  border-radius: 10px;
+  /* border: 1px solid gray; */
+  text-align: center;
+}
+
+img:hover,
+video:hover {
+  opacity: 1;
+  filter: blur(12px) brightness(70%);
+  overflow: hidden;
+  transition: 0.2s -webkit-filter linear;
+}
+img:hover .gallery_text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.gallery_text {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  opacity: 0;
+}
+
+.bottomtext {
+  font-size: 38px;
+  letter-spacing: -0.2px;
+  margin: 260px 0;
+}
+
+.bottomtext p {
+  font-weight: 500;
+}
+
+.bottomtext a {
+  text-decoration: none;
+  color: gray;
 }
 
 footer {
