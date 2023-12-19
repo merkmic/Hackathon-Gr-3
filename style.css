@@ -19,7 +19,8 @@ nav {
   z-index: 1;
   top: 2rem;
   min-width: 300px;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 nav a {
@@ -49,7 +50,16 @@ h1 {
 #current {
   background: rgb(255, 255, 255);
 }
-
+span {
+    width: auto;
+    font-size: 80%;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: rgba(232, 229, 228, 0.5);
+    border: 2px;
+    padding: 10px;
+    margin: 8px;
+}
 main {
     display: flex;
     margin: 8rem;
@@ -64,17 +74,18 @@ main {
     overflow: hidden;
     border-radius: 10px;
     text-align: center;
-}
 
-img:hover, video:hover {
-    opacity: 1;
-    filter: blur(12px) brightness(70%);
-    overflow: hidden;
-    transition: 0.25s -webkit-filter linear;
+
+img:hover,
+video:hover {
+  opacity: 1;
+  filter: blur(12px) brightness(70%);
+  overflow: hidden;
+  transition: 0.25s -webkit-filter linear;
 }
 img:hover p {
-    visibility: visible;
-    opacity: 0;
+  visibility: visible;
+  opacity: 0;
 }
 
 .gallery_text {
@@ -90,6 +101,7 @@ img:hover p {
     transition: opacity 0.3s ease; 
     pointer-events: none; 
     text-align: center;
+
 }
 
 img:hover,
@@ -125,6 +137,10 @@ video:hover {
 .bottomtext a {
   text-decoration: none;
   color: gray;
+}
+
+.bottomtext a:hover {
+  opacity: 50%;
 }
 
 footer {
