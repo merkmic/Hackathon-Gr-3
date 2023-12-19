@@ -38,3 +38,7 @@ nav a {
 #current {
     background: rgb(255, 255, 255)
 }
+
+.gallery_image {
+    position:relative;
+}
